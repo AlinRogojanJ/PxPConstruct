@@ -1,7 +1,4 @@
 [build]
-  # Static site - no build step required
   command = ""
-  # Deploy from repository root where index.html is located
   publish = "."
-  # Ignore any base directory setting
-  base = ""
+  base = "."
