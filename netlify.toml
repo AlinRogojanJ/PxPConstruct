@@ -1,6 +1,7 @@
 [build]
-  # No build command needed - this is a static site
-  # Using a simple command that succeeds instead of empty string
-  command = "echo 'Static site - no build required'"
-  # Publish the root directory since index.html is at the repo root
+  # Static site - no build step required
+  command = ""
+  # Deploy from repository root where index.html is located
   publish = "."
+  # Ignore any base directory setting
+  base = ""
